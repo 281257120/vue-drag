@@ -1,0 +1,1 @@
+import{d as o,bA as a,o as _,c,a as e,t as n,g as r,_ as d}from"./index-d5456b89.js";const i={class:"wrapper"},l={class:"title"},m=o({__name:"HomePage",setup(p){const s="/vue-drag/dist/images/video.svg",t=a();return(g,u)=>(_(),c("div",i,[e("div",l,n(r(t).title),1),e("img",{class:"logo",src:s,alt:""})]))}});const f=d(m,[["__scopeId","data-v-38e3d317"]]);export{f as default};

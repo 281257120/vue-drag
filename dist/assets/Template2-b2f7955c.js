@@ -1,0 +1,1 @@
+import{d as e,o as _,c as t,_ as a}from"./index-d5456b89.js";const s={class:"temp"},c=e({name:""}),o=e({...c,setup(n){return(p,d)=>(_(),t("div",s,"模板二 主标题 大小自适应内容,禁止调整大小"))}});const r=a(o,[["__scopeId","data-v-2adc074a"]]);export{r as default};
