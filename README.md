@@ -1,5 +1,8 @@
 ## 关于
 
+项目基于draggable (https://github.com/SortableJS/vue.draggable.next?tab=readme-ov-file) 学习更多。 和 @gausszhou/vue3-drag-resize-rotate (https://gausszhou.github.io/vue3-drag-resize-rotate/#/events/events-resizing) 学习更多。 进行改进。
+实现了拖拽左侧模板，添加至右侧拖拽缩放区域，并实时显示配置参数。
+
 这个项目是基于 vite + vue3 + TS 的前端集成方案，已使用最新的前端技术栈。
 
 已经做好项目前期基本的准备工作，并附有示例代码，助力项目快速开发。
@@ -18,12 +21,7 @@
 
 ## 功能点
 
-- 使用 vite 构建
-- 模块化全局状态管理(基于 pinia)
-- 封装了 axios 和请求模拟
-- 代码提交规范
-- 暗黑模式
-- 集成VueCesium、ElementPlus
+-
 
 ## 安装
 
