@@ -3,7 +3,7 @@
                 中文文档：https://www.itxst.com/vue-draggable-next/tutorial.html
 * @Author: Liu Yang
 * @Date: 2023-03-17 14:02:49
- * @LastEditTime: 2024-05-09 11:24:05
+ * @LastEditTime: 2024-05-09 14:03:08
  * @LastEditors: Liu Yang
 -->
 <template>
@@ -18,8 +18,8 @@
       </template>
     </draggable>
     <div class="title msg">提示：拖动列表可调整图层层级</div>
-    <el-button class="add-all" plain @click="addAll">添加所有模板</el-button>
-
+    <el-button class="add-all" plain @click="changeIsAddAll(true)">添加所有模板</el-button>
+    <el-button class="add-all" type="danger" plain @click="changeIsAddAll(false)">删除所有模版</el-button>
   </div>
 </template>
 
@@ -85,15 +85,16 @@ const changeAdd = (item: any) => {
   const isAddLs = myArray.value.filter((item: any) => item.isAdd)
   settingStore.changeTemplateArray(isAddLs)
 }
-const addAll = () => {
+const changeIsAddAll = (flag) => {
   myArray.value.forEach((item: any) => {
-    item.isAdd = true
+    item.isAdd = flag
   })
   const isAddLs = myArray.value.filter((item: any) => item.isAdd)
   settingStore.changeTemplateArray(isAddLs)
 }
+
 onMounted(() => {
-  addAll()
+  changeIsAddAll(true)
 })
 </script>
 <style lang='scss' scoped>
@@ -146,6 +147,7 @@ onMounted(() => {
 
   .add-all {
     width: 100%;
+    margin: 0;
     margin-top: 1rem;
   }
 }

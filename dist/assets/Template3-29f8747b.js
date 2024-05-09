@@ -1,0 +1,1 @@
+import{d as e,o as _,c as t,_ as s}from"./index-c84900aa.js";const o={class:"temp"},a=e({name:""}),c=e({...a,setup(n){return(d,p)=>(_(),t("div",o,"模板三 图例"))}});const l=s(c,[["__scopeId","data-v-df881fd3"]]);export{l as default};
