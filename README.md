@@ -8,7 +8,7 @@
 
 推荐使用node16+版本，本模板（v16.17.1）。
 
-[预览本项目](https://281257120.github.io/vue3/dist/)
+[预览本项目](https://281257120.github.io/vue-drag/dist/)
 
 
 ## 开发 IDE
